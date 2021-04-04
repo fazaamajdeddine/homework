@@ -1,0 +1,63 @@
+// all men are mortal.
+//socrates is a men
+//therefore,socrates is mortal 
+//im gonna use the if statements and comparaison operators and else and ifelse...
+
+
+var Men= "mortal";
+var socrates= Men;
+var allMenAre="all men are mortal";
+var Notmen="animal";
+
+
+function myHomework(){
+
+    if(socrates=== Men){
+        console.log("therefore, socrates is " + Men );
+
+    }else if(socrates===Notmen) {
+        console.log("socrates is not " + Men );
+    }else{
+        console.log("i didn't realy what kind of things is socrates ");
+    }
+}
+
+myHomework();
+
+
+function myHomework2(){
+    if(socrates!=Men){
+        console.log("hey bro!!, socrates is not " + Men);
+    }else{
+        console.log("he's mortal :(");
+    }
+}
+
+function homework4(){
+    let socrates=true;
+    if(socrates===true && socrates=== Men){
+        console("yeah socrates is "+ Men+ " and he gonna duy" );
+    }else if(socrates!==Men && socrates!==true){
+        console.log("he's not mortal");
+    }else{
+        console.log("socrates is an animal ! xd");
+    }
+}
+function socratesWithArray(){
+var socratesArray=["men","animal",allMenAre];
+
+if(socrates===socratesArray[0]){
+    console.log("socrates is a mortal excuse me :( ");
+
+}else if(socrates===socratesArray[1]){
+    console.log("socrates is " + socratesArray[1]+" he still alive");
+
+}else 
+console.log(socratesArray[2]+ " sorry socrates , youre a mortal");
+}
+
+
+function returnSocrates(){
+    return "socrates is a " + Men;
+}
+
